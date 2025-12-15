@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e8f4fc;
+  color: #003366;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 2.2em;
+  color: #c62828;
+}
+
+.header h2 {
+  font-size: 1.6em;
+  margin-top: 8px;
+  color: #1565c0;
+}
+
+.header h3 {
+  font-size: 1.2em;
+  margin-top: 6px;
+  color: #0d47a1;
+}
+
+.hora-atual {
+  margin-top: 12px;
+  font-size: 1.1em;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.funcionario-card {
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.funcionario-card.ativo {
+  border: 4px solid #4caf50;
+  background-color: #e8f5e9;
+  transform: scale(1.03);
+}
+
+.funcionario-card h3 {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  color: #1976d2;
+}
+
+.funcionario-card .nome {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 8px 0;
+  color: #000;
+}
+
+.funcionario-card .especialidade {
+  font-size: 1.05em;
+  color: #d32f2f;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.funcionario-card .turno {
+  font-style: italic;
+  color: #555;
+  margin: 6px 0;
+}
+
+.funcionario-card .horario {
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .funcionario-card {
+    width: 95%;
+  }
+}
