@@ -1,5 +1,5 @@
 // 🔴 🔴 🔴 SUBSTITUA O LINK ABAIXO PELO SEU! 🔴 🔴 🔴
-const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/SEU_ID(pub?output=csv";
+const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSg26B11MR9K9OnzmZOYVZS0fMlDx7Qz0LFJvy3xlbQ-uXW7zKZarB4OAVlDIxwDopBdzwsvFCRMkLQ/pub?output=csv";
 
 const container = document.getElementById("escala-container");
 const horaAtualDiv = document.getElementById("hora-atual");
